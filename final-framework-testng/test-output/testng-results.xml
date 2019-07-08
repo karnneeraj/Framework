@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-18T06:27:44Z" name="Default suite" finished-at="2019-06-18T06:28:34Z" duration-ms="50031">
+  <suite started-at="2019-07-08T16:17:38Z" name="Default suite" finished-at="2019-07-08T16:18:30Z" duration-ms="51692">
     <groups>
     </groups>
-    <test started-at="2019-06-18T06:27:44Z" name="Default test" finished-at="2019-06-18T06:28:34Z" duration-ms="50031">
-      <class name="com.training.sanity.tests.Retc_017">
-        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Retc_017@7fc229ab]" started-at="2019-06-18T06:27:44Z" name="setUpBeforeClass" finished-at="2019-06-18T06:27:44Z" duration-ms="31" status="PASS">
+    <test started-at="2019-07-08T16:17:38Z" name="Default test" finished-at="2019-07-08T16:18:30Z" duration-ms="51692">
+      <class name="com.training.sanity.tests.Retc_053">
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Retc_053@7fc229ab]" started-at="2019-07-08T16:17:38Z" name="setUpBeforeClass" finished-at="2019-07-08T16:17:38Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.Retc_017@7fc229ab]" started-at="2019-06-18T06:27:44Z" name="setUp" finished-at="2019-06-18T06:27:55Z" duration-ms="11009" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.Retc_053@7fc229ab]" started-at="2019-07-08T16:17:38Z" name="setUp" finished-at="2019-07-08T16:17:54Z" duration-ms="16014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Retc_017@7fc229ab]" started-at="2019-06-18T06:27:55Z" name="validLoginTest" finished-at="2019-06-18T06:28:33Z" duration-ms="37930" status="FAIL">
+        <test-method signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.Retc_053@7fc229ab]" started-at="2019-07-08T16:17:54Z" name="validLoginTest" finished-at="2019-07-08T16:18:29Z" duration-ms="34617" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not interactable
-  (Session info: chrome=75.0.3770.90)
+  (Session info: chrome=75.0.3770.100)
   (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'NKUMAR15', ip: '9.124.126.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
+System info: host: 'NKUMAR15', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54064}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Users\NEERAJ~1\AppData\Local\Temp\scoped_dir2740_5070}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.90, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 241f9b9fcb81b32486d690edbb8c9421]]>
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60792}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Users\NEERAJ~1\AppData\Local\Temp\scoped_dir18932_451}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 94794b1e9b28c428ae8bfd1de1ce0d1d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=75.0.3770.90)
+  (Session info: chrome=75.0.3770.100)
   (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'NKUMAR15', ip: '9.124.126.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
+System info: host: 'NKUMAR15', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54064}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Users\NEERAJ~1\AppData\Local\Temp\scoped_dir2740_5070}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.90, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 241f9b9fcb81b32486d690edbb8c9421
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60792}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Users\NEERAJ~1\AppData\Local\Temp\scoped_dir18932_451}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.100, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 94794b1e9b28c428ae8bfd1de1ce0d1d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -53,14 +53,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at com.training.pom.Retc_017POM.Clickaddnew3(Retc_017POM.java:57)
-at com.training.sanity.tests.Retc_017.validLoginTest(Retc_017.java:62)
+at com.training.sanity.tests.Retc_053.validLoginTest(Retc_053.java:72)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -92,11 +85,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Retc_017@7fc229ab]" started-at="2019-06-18T06:28:33Z" name="tearDown" finished-at="2019-06-18T06:28:34Z" duration-ms="1014" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Retc_053@7fc229ab]" started-at="2019-07-08T16:18:29Z" name="tearDown" finished-at="2019-07-08T16:18:30Z" duration-ms="1001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.Retc_017 -->
+      </class> <!-- com.training.sanity.tests.Retc_053 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

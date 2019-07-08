@@ -19,7 +19,7 @@ public class LoginPOM {
 	@FindBy(id="user_pass")
 	private WebElement password;
 	
-	@FindBy(id="login")
+	@FindBy(xpath="//*[@class='button border margin-top-10']")
 	private WebElement loginBtn; 
 	
 	public void sendUserName(String userName) {
